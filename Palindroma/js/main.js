@@ -27,9 +27,11 @@ function isPalindrome(word) {
 
     // verifico se l'array creato corrisponde al suo inverso
     if (inputWord === reversedWord) {
-        console.log(`La parola ${inputWord} è palindroma!`);
+        console.log(`La parola ${inputWord} è palindroma`);
+        alert(`La parola ${inputWord} è palindroma`);
     } else {
-        console.log(`La parola ${inputWord} non è palindroma!`);   
+        console.log(`La parola ${inputWord} non è palindroma`);
+        alert(`La parola ${inputWord} non è palindroma`);   
     }
 }
 
