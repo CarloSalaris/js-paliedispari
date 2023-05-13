@@ -37,11 +37,11 @@ let numSum = sumOddOrEven(userNumber, compNumber)
 
 // Dichiariamo chi ha vinto
 if (userChoice == sumResult) {
-    alert("Hai vinto!")
     console.log("Hai vinto!");
+    alert("Hai vinto!")
 } else {
-    alert("Hai perso!")
     console.log("Hai perso!");
+    alert("Hai perso!")
 }
 
 /* FUNCTIONS */
@@ -56,9 +56,9 @@ function sumOddOrEven(num1, num2) {
         console.log(`la somma è ${sum}: PARI`);
         console.log(sumResult);
     }else {
-        sumResult == !even;
+        sumResult = !even;
         console.log(`la somma è ${sum}: DISPARI`);
+        console.log(sumResult);
     }
     return (sumResult);
 }
-
